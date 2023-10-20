@@ -17,6 +17,7 @@ ng add @angular/material
 
 npm i xlsx
 
+code -r ../$FileName
+
 ng serve
 
-code -r ../$FileName
