@@ -7,13 +7,13 @@ Project Name:
 
 read FileName
 
-dotnet new webapi -o ../Project/$FileName
+dotnet new webapi -o ../../Project/$FileName
 
 echo "
-Project created successfully under ../Project/$FileName
+Project created successfully under ../../Project/$FileName
 "
 
-cd ../Project/$FileName
+cd ../../Project/$FileName
 
 echo "
 Adding packages
